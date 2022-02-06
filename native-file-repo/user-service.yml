@@ -1,5 +1,12 @@
+spring:
+  datasource:
+    driver-class-name: org.h2.Driver
+    url: jdbc:h2:mem:testdb
+    username: sa
+    password: "{cipher}794bee913e3b0b908a29f1dacc2938a5008990d29daa493ccdccb41aefbbac60"
+
 token:
-  expiration-time: 86400000
+  expiration_time: 86400000
   secret: user_token_native_ecommerce
 
 gateway:
