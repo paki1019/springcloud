@@ -3,11 +3,11 @@ spring:
     driver-class-name: org.h2.Driver
     url: jdbc:h2:mem:testdb
     username: sa
-    password: "{cipher}794bee913e3b0b908a29f1dacc2938a5008990d29daa493ccdccb41aefbbac60"
+    password: "{cipher}AQB2CI98jZ4QleTy0pZLMaOvrg//hZarv8GhILR3cLHB0SNTnVOT682IuAmK/aaSMNtb+OLlayaOSGunSU6nWiQEo19/KNKcHCPNQ6oLEMAHN7KQoknTtp3fcggk0Lw+kOQwnvthSLla8mLik+SxJYwQhptBQcQzeLz4HYjyBeqdAhsvEvOWJCd/q1/mJO+cFSw1LIod9CxQzx6xVIdM5jYmhucKjTu9URA42b9FxInXDidkns+hep3r2haXpyd4C9cthWWyKiXfVdwH9Q+ZI8gQRGhdRsiypUwsO4+Bo4BJayjFK6jkTupwbfA3pJrcpR2X/qS4YsUtoufwIpID/pKcfKGDmBGL4ffu7IMJV0yCCYh/WOKpgxUrK1J3OzImYQA="
 
 token:
   expiration_time: 86400000
-  secret: user_token_native_ecommerce
+  secret: "{cipher}AQAZcTbwWEi2KC46biFJ0FodL4O70HHVGIDAUcQcC9V9t0+vEY1hSeaKAUMOxwf0Q7/LVwv3FgkgYKYEqAo/H0y/g17S0zeWb76WVbMzel3EbuwHa5RjjehH3dpOtVONiMLqwfMe/iQzLsBopow4avlmtN6TAFwY19gadpmzevjlD6AAd+tJ8JkVQzBcQTaBRC0QefUNEstsuWjPjpkcym2QipErJwV6EmPd7grFSmGZVkeHWAfv+Mj3+/pNjx8IWTtohbgLB4s8QU3rUbUIqaNVw7kqdxn/Os9DFvIDZy7AJNcQ9iRYx+g08y7zkWgD6dWcdYmpDgzjVAoDS8MvvxAvOV+FZIKdGATxZJdmMuq+bRGVBGS+5b4i/KxIKfC2xpjqZdEpxF3kDQj0CaeRXdt2"
 
 gateway:
   ip: 127.0.0.1
