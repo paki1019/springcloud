@@ -1,10 +1,10 @@
 server:
   port: 8000
 eureka:
-  instance:
-    hostname: localhost
-    lease-expiration-duration-in-seconds: 1 # 하트비트 인터벌
-    lease-renewal-interval-in-seconds: 2 # 디스커버리 서비스 등록 해제 전 마지막 하트비트 지연시간
+#  instance:
+#    hostname: localhost
+#    lease-expiration-duration-in-seconds: 1 # 하트비트 인터벌
+#    lease-renewal-interval-in-seconds: 2 # 디스커버리 서비스 등록 해제 전 마지막 하트비트 지연시간
   client:
     register-with-eureka: true
     fetch-registry: true

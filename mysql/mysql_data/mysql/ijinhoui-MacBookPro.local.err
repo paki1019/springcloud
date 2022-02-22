@@ -1,0 +1,36 @@
+220214 16:32:21 mysqld_safe Starting mariadbd daemon with databases from /usr/local/var/mysql
+2022-02-14 16:32:21 0 [Note] /usr/local/Cellar/mariadb/10.6.4/bin/mariadbd (server 10.6.4-MariaDB) starting as process 91167 ...
+2022-02-14 16:32:21 0 [Warning] Setting lower_case_table_names=2 because file system for /usr/local/var/mysql/ is case insensitive
+2022-02-14 16:32:22 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2022-02-14 16:32:22 0 [Note] InnoDB: Number of pools: 1
+2022-02-14 16:32:22 0 [Note] InnoDB: Using crc32 + pclmulqdq instructions
+2022-02-14 16:32:22 0 [Note] InnoDB: Initializing buffer pool, total size = 134217728, chunk size = 134217728
+2022-02-14 16:32:22 0 [Note] InnoDB: Completed initialization of buffer pool
+2022-02-14 16:32:22 0 [Note] InnoDB: 128 rollback segments are active.
+2022-02-14 16:32:22 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2022-02-14 16:32:22 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2022-02-14 16:32:22 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2022-02-14 16:32:22 0 [Note] InnoDB: 10.6.4 started; log sequence number 42161; transaction id 14
+2022-02-14 16:32:22 0 [Note] Plugin 'FEEDBACK' is disabled.
+2022-02-14 16:32:22 0 [Note] InnoDB: Loading buffer pool(s) from /usr/local/var/mysql/ib_buffer_pool
+2022-02-14 16:32:22 0 [Note] InnoDB: Buffer pool(s) load completed at 220214 16:32:22
+2022-02-14 16:32:22 0 [Note] Server socket created on IP: '::'.
+2022-02-14 16:32:22 0 [Note] Server socket created on IP: '0.0.0.0'.
+2022-02-14 16:32:22 0 [Note] /usr/local/Cellar/mariadb/10.6.4/bin/mariadbd: ready for connections.
+Version: '10.6.4-MariaDB'  socket: '/tmp/mysql.sock'  port: 3306  Homebrew
+2022-02-14 16:32:27 4 [Warning] Access denied for user 'root'@'localhost'
+2022-02-14 16:33:49 6 [Warning] Access denied for user 'root'@'localhost'
+2022-02-14 16:33:54 7 [Warning] Access denied for user 'root'@'localhost'
+2022-02-14 16:41:41 9 [Warning] Access denied for user 'root'@'localhost'
+2022-02-14 16:41:51 10 [Warning] Access denied for user 'root'@'localhost'
+2022-02-14 17:35:26 12 [Warning] Aborted connection 12 to db: 'mydb' user: 'root' host: 'localhost' (Got an error reading communication packets)
+2022-02-16 20:02:40 0 [Note] /usr/local/Cellar/mariadb/10.6.4/bin/mariadbd (initiated by: unknown): Normal shutdown
+2022-02-16 20:02:40 0 [Note] InnoDB: FTS optimize thread exiting.
+2022-02-16 20:02:41 0 [Note] InnoDB: Starting shutdown...
+2022-02-16 20:02:41 0 [Note] InnoDB: Dumping buffer pool(s) to /usr/local/var/mysql/ib_buffer_pool
+2022-02-16 20:02:41 0 [Note] InnoDB: Buffer pool(s) dump completed at 220216 20:02:41
+2022-02-16 20:02:41 0 [Note] InnoDB: Removed temporary tablespace data file: "./ibtmp1"
+2022-02-16 20:02:41 0 [Note] InnoDB: Shutdown completed; log sequence number 58901; transaction id 63
+2022-02-16 20:02:41 0 [Note] /usr/local/Cellar/mariadb/10.6.4/bin/mariadbd: Shutdown complete
+
+220216 20:02:41 mysqld_safe mysqld from pid file /usr/local/var/mysql/ijinhoui-MacBookPro.local.pid ended

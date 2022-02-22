@@ -30,10 +30,10 @@ spring:
 
 eureka:
   instance:
-    hostname: localhost
+#    hostname: localhost
     instance-id: ${spring.application.name}:${spring.application.instance_id:${random.value}}
-    lease-expiration-duration-in-seconds: 1 # 하트비트 인터벌
-    lease-renewal-interval-in-seconds: 2 # 디스커버리 서비스 등록 해제 전 마지막 하트비트 지연시간
+#    lease-expiration-duration-in-seconds: 1 # 하트비트 인터벌
+#    lease-renewal-interval-in-seconds: 2 # 디스커버리 서비스 등록 해제 전 마지막 하트비트 지연시간
   client:
     register-with-eureka: true
     fetch-registry: true
